@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposición de Deportes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .deporte {
+            margin-bottom: 30px;
+            background-color: #f2f2f2; /* Color de fondo para cada sección */
+            padding: 20px; /* Añadir espacio interno */
+            border-radius: 10px; /* Añadir bordes redondeados */
+        }
+        .deporte h2 {
+            margin-bottom: 10px;
+        }
+        .deporte p {
+            margin-bottom: 5px;
+        }
+        /* Estilos para las imágenes */
+        .deporte .imagen {
+            text-align: center; /* Centrar la imagen */
+        }
+        .deporte img {
+            max-width: 100%; /* Ajustar la imagen al tamaño máximo de su contenedor */
+            height: auto; /* Mantener la proporción de aspecto */
+            border-radius: 5px; /* Añadir bordes redondeados a las imágenes */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exposición de Deportes</h1>
+
+    <div class="deporte">
+        <h2>Fútbol</h2>
+        <div class="imagen">
+            <img src="imagen_futbol.jpg" alt="Fútbol">
+        </div>
+        <p>El fútbol es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno.</p>
+        <p>Es ampliamente considerado el deporte más popular del mundo, con una base de aficionados que abarca todos los continentes.</p>
+    </div>
+
+    <div class="deporte">
+        <h2>Baloncesto</h2>
+        <div class="imagen">
+            <img src="imagen_baloncesto.jpg" alt="Baloncesto">
+        </div>
+        <p>El baloncesto es un deporte de equipo en el que dos conjuntos de cinco jugadores cada uno intentan anotar puntos.</p>
+        <p>Se juega en una cancha rectangular con una pelota que se lanza a través de un aro ubicado a una altura de 3.05 metros.</p>
+    </div>
+
+    <div class="deporte">
+        <h2>Tenis</h2>
+        <div class="imagen">
+            <img src="imagen_tenis.jpg" alt="Tenis">
+        </div>
+        <p>El tenis es un deporte que se juega individualmente (individuales) o entre dos equipos de dos jugadores cada uno (dobles).</p>
+        <p>Los jugadores utilizan raquetas para golpear una pelota de goma que se lanzó desde un extremo de la cancha al otro a través de una red.</p>
+    </div>
+
+    <div class="deporte">
+        <h2>Natación</h2>
+        <div class="imagen">
+            <img src="imagen_natacion.jpg" alt="Natación">
+        </div>
+        <p>La natación es un deporte en el que los participantes se mueven a través del agua utilizando movimientos de brazos y piernas.</p>
+        <p>Es uno de los deportes más completos, ya que ejercita prácticamente todos los músculos del cuerpo.</p>
+    </div>
+
+    <div class="deporte">
+        <h2>Atletismo</h2>
+        <div class="imagen">
+            <img src="imagen_atletismo.jpg" alt="Atletismo">
+        </div>
+        <p>El atletismo es un conjunto de disciplinas deportivas que incluyen carreras, saltos, lanzamientos y pruebas combinadas.</p>
+        <p>Es considerado como la forma más antigua de deporte organizado y ha sido un evento destacado en los Juegos Olímpicos modernos.</p>
+    </div>
+
+</body>
+</html>
